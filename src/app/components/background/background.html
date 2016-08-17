@@ -1,0 +1,12 @@
+<template>
+  <require from="../../converters/snap.js"></require>
+  <require from="./background.css"></require>
+  <div class="flex-container">
+    <div class="background">
+      <svg x="0px" y="0px" viewBox="0 0 84 83.14" ref="svg | asSnap"></svg>
+    </div>
+    <div class="controls">
+      <label>Duration: <input type="number" min="1" max="100" value.bind="duration" value="5"></label>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+}
+.background {
+  flex: 1 1 auto;
+  width: 80%;
+}
+.controls {
+  flex: 0 0 auto;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.controls label {
+  margin-left: 15px;
+}
