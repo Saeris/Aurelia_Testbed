@@ -21,14 +21,24 @@
 			100%    { fill-opacity: 0.15; }
 		}
 		.Triangles {
+			fill: #fff;
+			fill-opacity: 0.25;
 		  mix-blend-mode:    screen;
+		}
+		.Small_Outline {
+			fill: #fff;
+			fill-opacity: 0.40;
+		}
+		.Large_Outline {
+			fill: #fff;
+			fill-opacity: 0.45;
 		}
   </style>
 	<g id="Background">
 		<rect y="0" fill="none" width="84" height="83.14"/>
 	</g>
 	<g id="Tiles">
-		<g class="Pattern">
+		<g class="Pattern" id="Pattern">
 			<g class="Outlines">
 				<path class="Small_Outline" d="M65.45,72.3c0.04,0.16-0.07,0.32-0.24,0.32H54.65c-0.19,0-0.31-0.21-0.21-0.38l5.27-9.14
 					c0.09-0.15,0.31-0.16,0.42-0.02l-0.71-1.23c0.1,0.17-0.02,0.38-0.21,0.38H48.65c-0.19,0-0.31-0.21-0.21-0.38l5.27-9.13
